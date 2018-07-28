@@ -1,14 +1,16 @@
+# jupyter
+
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 
 pip3 install jupyter
-sudo python3 -m pip install pandas scipy plotly numpy
+sudo python3 -m pip install pandas scipy plotly numpy matplotlib
 jupyter notebook
 http://localhost:8888/tree
 ihm->new->python3
 .ipynb file is a text file that describes the contents of your notebook in JSON
 
-```
+```python
 import numpy as np
 
 def square(x):
@@ -31,3 +33,16 @@ import pandas as pd
 import numpy as np
 import scipy as sp
 import plotly.plotly as py
+
+## anaconda
+jupyter notebook
+https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb
+https://media.readthedocs.org/pdf/jupyter-notebook/latest/jupyter-notebook.pdf
+https://jupyter-notebook.readthedocs.io/en/stable/notebook.html
+
+official course notebook
+http://nbviewer.jupyter.org/github/jmportilla/Udemy-notes/tree/master/
+numpy:
+http://docs.scipy.org/doc/numpy/reference/
+advanced numpy
+http://cs231n.github.io/python-numpy-tutorial/
