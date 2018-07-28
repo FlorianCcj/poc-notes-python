@@ -1,5 +1,7 @@
 # jupyter
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 
